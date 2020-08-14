@@ -21,7 +21,7 @@ const Hero = (props) => {
 		<section className="container pt-4">
 			<div className="row align-items-center">
 				{/* KIRI */}
-				<div className="col-auto pr-5" style={{ width: 530 }}>
+				<div className="col-md-6">
 					<h1 className="font-weight-bold line-height-1 mb-3">
 						Forget Busy Work, <br />
 						Start Next Vacation
@@ -56,7 +56,7 @@ const Hero = (props) => {
 				</div>
 				{/* END KIRI */}
 				{/* KANAN */}
-				<div className="col-6 pl-5">
+				<div className="col-md-6">
 					<div style={{ width: 520, height: 410 }}>
 						<img
 							src={ImageHero}
